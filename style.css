@@ -61,11 +61,22 @@ p {
     display: none;
 }
 
+.mobile-warning {
+    display: none;
+}
 
 @media (max-width: 680px) {
     p {
         padding: 0 2rem;
         font-size: 1.3rem;
+    }
+
+    .desktop-warning {
+        display: none;
+    }
+
+    .mobile-warning {
+        display: block;
     }
 
     main .display-box {
